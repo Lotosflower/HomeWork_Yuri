@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(127, 255, 249);
+}
+
+h2{
+    margin-left: 15px;
+    color: blueviolet;
+    width: 38%;
+    margin: 0 auto
+}
+
+
+h2::first-letter{
+    color: red;
+    font-size: 35px;
+}
+
+.todo{
+    border:solid 4px;
+    
+    
+}
+
+.todo__list{
+    margin:0px 0 5px 15px;
+    list-style: none;
+  
+}
+
+input:checked + span {
+text-decoration-line: line-through;
+}
+
+.data__cross span{
+    margin-left: 6px;
+    
+}
+
+.data__cross {
+    width: 45%;
+margin: 0 auto;
+line-height: 24px;
+}
+
+.data__cross {
+    text-transform: capitalize;
+    
+}
+
+
+
+.delete__btn::first-letter{
+    color: red;
+    text-transform: capitalize;
+}
+
+
+.delete__btn{
+    margin-left: 7px;
+   width: 45px; 
+   border-radius: 5px;
+}
+
+.delete__btn:hover{
+    background-color: brown; 
+}
+
